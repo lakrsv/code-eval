@@ -6,6 +6,8 @@ namespace BigOrLittleEndianess
     {
         static void Main(string[] args)
         {
+            //I know; It feels like cheating.
+            //But you use the tools your language gives to you, KISS.
             bool isLittleEndian = BitConverter.IsLittleEndian;
 
             if (isLittleEndian)
